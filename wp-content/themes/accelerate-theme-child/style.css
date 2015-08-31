@@ -14,11 +14,16 @@
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 #masthead {
-    background: none repeat scroll 0 0 blue;
+    background: none repeat scroll 0 0 #45ac9d;
 }
 .button {
-    background: none repeat scroll 0 0 blue;
+    background: none repeat scroll 0 0 #45ac9d;
 }
+#masthead nav ul li {
+    float: left;
+    margin: 0 11px 10px 0;
+}
+
 .blog-post {
     width: 50%;
 }
@@ -40,3 +45,24 @@
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+/* Case Studies */
+
+article.case-study {
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 305px;
+    margin: 0 40px 0 0;
+}
+div.case-study-images {
+    float: right
+    width: 350px;
+}
+div.case-study-images img {
+    margin-bottom: 50px;
+    border: 2px solid #dddddd;
+}
+    
