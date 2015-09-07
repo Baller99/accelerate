@@ -20,8 +20,11 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 #masthead nav ul li {
-    float: left;
-    margin: 0 11px 10px 0;
+    display: inline;
+	font-size: 14px;
+	line-height: normal;
+	margin-left: 35px;
+	text-transform: uppercase;
 }
 
 .blog-post {
@@ -45,6 +48,16 @@
     color: #45ac9d;
     text-transform: uppercase;
 }
+.site-content-narrow {
+    width: 50%;
+    margin-left: 200px;
+}
+
+/* About Us */
+div.about-us-images {
+    margin-right: 20px;
+}
+
 
 /* Case Studies */
 
@@ -65,4 +78,51 @@ div.case-study-images img {
     margin-bottom: 50px;
     border: 2px solid #dddddd;
 }
-    
+/* Ninja Forms*/
+.ninja-forms-field {
+	font-size: 20px;
+	font-weight: normal;
+}
+#ninja_forms_field_1_div_wrap,
+#ninja_forms_field_1 {
+	width: 48%;
+	height: 35px;
+	float: left;
+}
+/* Email field input */
+#ninja_forms_field_2{
+	width: 48%;
+	height: 35px;
+	float: right;
+	margin-left: 4%;
+}
+#ninja_forms_field_3{
+
+}
+
+#ninja_forms_field_5 {
+	background-color: #45ac9d;
+	border-radius: 8px;
+	float: right;
+}
+
+/* 404 Page */
+a {
+  color:  #45ac9d;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+.page-title {
+    color: #45ac9d;
+}
+
+/* Mailchimp */
+.mc4wp-form {
+    width: 50%
+} 
+input[type="submit"]  {
+    background-color: #45ac9d;
+	border-radius: 8px;
+}
